@@ -10,6 +10,7 @@ import { HomeComponent } from './components/home/home.component';
 import { FormsModule } from '@angular/forms';
 import { EducationComponent } from './components/education/education.component';
 import { SkillComponent } from './components/skill/skill.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SkillComponent } from './components/skill/skill.component';
     ExperienceComponent,
     HomeComponent,
     EducationComponent,
-    SkillComponent
+    SkillComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
