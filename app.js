@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/', function(req, res, next) {
     // Just send the index.html for other files to support HTML5Mode
     const filePath = path.join(__dirname, 'dist/resume-app')  
-    // res.sendFile('index.html', { root: filePath });
+    res.sendFile('index.html', { root: filePath });
     // res.sendFile('index.html', { root: 'dist/resume-app' });
-    res.sendFile(path.join(__dirname, 'dist/resume-app/index.html'));
+    // res.sendFile(path.join(__dirname, 'dist/resume-app/index.html'));
 });
