@@ -6,7 +6,8 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "npm install && ng build && node app.js",
+    "_comment_for_start": "start needs to have those three commands to successfully run on AWS beanstalk",
+    "start": "npm install && ng build && node app.js", 
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"

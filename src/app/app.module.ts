@@ -8,6 +8,8 @@ import { AboutComponent } from './components/about/about.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { HomeComponent } from './components/home/home.component';
 import { FormsModule } from '@angular/forms';
+import { EducationComponent } from './components/education/education.component';
+import { SkillComponent } from './components/skill/skill.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { FormsModule } from '@angular/forms';
     NavbarComponent,
     AboutComponent,
     ExperienceComponent,
-    HomeComponent
+    HomeComponent,
+    EducationComponent,
+    SkillComponent
   ],
   imports: [
     BrowserModule,
